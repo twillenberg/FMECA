@@ -1,0 +1,19 @@
+This paper titled "Assessing Cyber Risks of an INS Using the MITRE ATT&CK Framework" explores the cybersecurity risks associated with Integrated Navigation Systems (INS) on modern vessels. Recognizing the critical role of shipping in global trade and the increasing reliance on computerized systems for vessel operations, the study aims to systematically assess cyber risks in these systems. The methodology adopted integrates the MITRE ATT&CK framework, which includes adversarial tactics, techniques, and mitigation measures, and tailors it to address specific cyber risks at sea.
+
+The paper begins with an introduction to the significance of maritime transportation and the growing cybersecurity concerns in this domain. It highlights the International Maritime Organization's (IMO) efforts in defining and mitigating maritime cyber risks, emphasizing the need for ship operators to assess and manage these risks effectively.
+
+The concept of an INS is defined per IMO standards, which is a system combining information from various navigation aids to enhance safe navigation. The study then elaborates on the MITRE ATT&CK framework, a comprehensive database of cyber attack tactics, techniques, and mitigation measures across various technological domains including enterprise, mobile, and industrial control systems.
+
+A review of related literature demonstrates various methods previously used to assess cyber risks in autonomous and conventional ships, underscoring the novelty and significance of the current study's approach.
+
+The methodology employed in the study is based on Failure Mode Effects and Criticality Analysis (FMECA) combined with the MITRE ATT&CK framework. This approach aims to reduce bias in risk assessment by being comprehensive and semi-automated. The methodology involves specifying and classifying marine components, identifying functions and data flow, determining failure modes, mapping failure modes with consequences and impacts, identifying estimation criteria for criticalities, and finally calculating risk scores and identifying risk levels.
+
+The study identifies 25 marine components of an INS and classifies them according to the method definitions required for risk assessment, which includes IT, OT, and Wireless categories【39†source】. Functions of these components and their data flow are then analyzed, providing a foundation for assessing cyber risks.
+
+Failure modes are identified based on the review of literature, product guidelines, and by considering potential failures caused by cyber attacks. The likelihood of these failure modes is estimated using the ATT&CK framework and the Common Vulnerability Scoring System (CVSS).
+
+Consequences of these failure modes are categorized into operational, safety, information, financial, staging, environmental, and reputation consequences, extending the original method to include reputation and environmental factors. The estimation criteria for these criticalities are derived from various sources, including the IMO's guidelines.
+
+Detection methods and existing controls for mitigating these risks are identified, and the study assesses over 70 mitigation measures for each component. The impact scores of components and the likelihood of attack techniques are calculated to determine the detectability of these techniques.
+
+Finally, the paper calculates risk scores and identifies risk levels for each component, considering the impact of techniques targeting these components. The study categorizes risks into low, medium, high, and critical levels based on the calculated risk scores, providing valuable insights for mitigating cyber risks in maritime navigation systems.
