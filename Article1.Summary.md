@@ -15,4 +15,7 @@ The proposed risk assessment approach detailed in the paper involves specifying 
 In summary, the paper offers a detailed methodology for assessing cyber risks in Cyber-Physical Systems like APSs, leveraging the ATT&CK framework and graph theory. This approach enhances the understanding of safety and security implications in such systems and contributes to developing robust risk management strategies.
 
 ## Additional Comments
+
+### Table 5: Failure Mode Consequences Table (FMCT)
+
 In Table 5 on page 12, the failure modes for the ICS component class are selected by an expert. In this table, an example, the MITRE ATT&CK tactics and techniques have been combined. The techniques from the "Impact" tactic and then all other tactics (Initial Access, Execution, Persistence, etc.) are also used.  
